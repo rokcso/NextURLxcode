@@ -6,9 +6,12 @@ export default function Layout({ children, texts }) {
   return (
     <>
       <Head>
+        {/* BaiDu 搜索资源站点验证 */}
+        <meta name="baidu-site-verification" content="codeva-yd4vTyGhor" />
+        {/* Google 搜索资源站点验证 */}
+        <meta name="google-site-verification" content="h9_G-edVa7uTlUrYdzBl-7zMXQbInCXjG70uZ__CVmk" />
         <title>{texts.siteTitle}</title>
         <meta name="description" content={texts.siteDescription} />
-
         <link rel="icon" href="/favicon/icon16x16.png" />
         <link rel="icon" href="/favicon/icon32x32.png" />
         <link rel="icon" href="/favicon/icon48x48.png" />

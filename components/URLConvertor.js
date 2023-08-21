@@ -53,10 +53,10 @@ export default function URLConvertor({ texts }) {
     inputRef.current.value = output;
     outputRef.current.value = input;
   };
-  const handleParse = () => {
+  const handleParse = () => {};
+  const handleToJson = () => {
     const url = inputRef.current.value;
     const params = new URLSearchParams(url);
-
     setEncoded(JSON.stringify(Object.fromEntries(params)));
   };
   return (
@@ -116,6 +116,7 @@ export default function URLConvertor({ texts }) {
           <button onClick={handleClear}>{texts.btnClearText}</button>
           <button onClick={handleSwap}>{texts.btnSwapText}</button>
           <button onClick={handleParse}>{texts.btnParseText}</button>
+          <button onClick={handleToJson}>{texts.btnToJsonText}</button>
         </div>
       </div>
     </div>

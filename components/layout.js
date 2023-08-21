@@ -2,17 +2,12 @@ import componentStyles from "./layout.module.css";
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Layout({
-  children,
-  siteName,
-  siteTitle,
-  siteDescription,
-}) {
+export default function Layout({ children, texts }) {
   return (
     <>
       <Head>
-        <title>{siteTitle}</title>
-        <meta name="description" content={siteDescription} />
+        <title>{texts.siteTitle}</title>
+        <meta name="description" content={texts.siteDescription} />
 
         <link rel="icon" href="/favicon/icon16x16.png" />
         <link rel="icon" href="/favicon/icon32x32.png" />
@@ -39,7 +34,7 @@ export default function Layout({
         <footer className={componentStyles.footer}>
           <span>Online URL Encode/Decode Tool.&nbsp;</span>
           <span>
-            Copyright &copy; 2023 <Link href="/">{siteName}</Link>.&nbsp;
+            Copyright &copy; 2023 <Link href="/">{texts.siteName}</Link>.&nbsp;
           </span>
           <span>All rights reserved.</span>
         </footer>

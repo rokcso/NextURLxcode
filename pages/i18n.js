@@ -19,6 +19,7 @@ export const en = {
   URITooltip: "Using the encodeURI() method of JavaScript to implement.",
   URIComponentTooltip:
     "Using the encodeURIComponent() method of JavaScript to implement.",
+  btnToJsonText: "To JSON",
 };
 
 export const zh = {
@@ -41,4 +42,5 @@ export const zh = {
   optionURIComponentText: "对特殊字符进行编码",
   URITooltip: "使用 JavaScript 的 encodeURI() 方法实现。",
   URIComponentTooltip: "使用 JavaScript 的 encodeURIComponent() 方法实现。",
+  btnToJsonText: "转为 JSON",
 };

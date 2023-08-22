@@ -84,7 +84,7 @@ export default function Layout({ children, texts }) {
         <footer className={componentStyles.footer}>
           <span>Online URL Encode/Decode Tool.&nbsp;</span>
           <span>
-            Copyright &copy; 2023 <Link href="/">{safeTexts.siteName}</Link>
+            Copyright &copy; 2023 <Link href="https://rok.ink">rok.ink</Link>
             .&nbsp;
           </span>
           <span>All rights reserved.</span>

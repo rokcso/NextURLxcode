@@ -24,8 +24,17 @@
     height: 45vh;
   }
   
+  .runTips {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+
+  .runTipsText {
+    color: #FF6969;
+  }
+
   .btnGroupTop {
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
   }
@@ -62,9 +71,13 @@
   .singleOption label:hover::after {
     content: attr(title);
     position: absolute;
-    background: #333;
-    color: #fff;
+    background: #141E46;
+    color: #FFF5E0;
     opacity: 0.85;
     padding: 4px 8px;
     border-radius: 4px;
+  }
+
+  .invalidInput, .emptyInput {
+    border: 1px solid #FF6969;
   }

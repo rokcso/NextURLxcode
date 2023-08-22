@@ -18,6 +18,10 @@
    |-- 404.js
    |-- zh
       |-- index.js
+   |-- kr
+      |-- index.js
+   |-- jp
+      |-- index.js
 |-- public
    |-- i18n.json
    |-- robots.txt
@@ -27,7 +31,7 @@
       |-- icon32x32.png
       |-- icon48x48.png
       |-- icon64x64.png
-      |-- icon128x128.
+      |-- icon128x128.png
 |-- syules
    |-- globals.css
 |-- node_modules

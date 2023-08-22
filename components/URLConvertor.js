@@ -59,7 +59,6 @@ export default function URLConvertor({ texts }) {
   };
 
   const handleEncode = () => {
-    setMode("encode");
     const inputValue = inputRef.current.value;
     let encoded = "";
     if (optionSelected === "uri") {

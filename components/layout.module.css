@@ -14,7 +14,7 @@
   left: 0;
   right: 0;
   backdrop-filter: blur(12px);
-  background-color: rgba(2, 6, 22, 0.6);
+  /* background-color: rgba(2, 6, 22, 0.6); */
 }
 
 .header nav {
@@ -22,7 +22,7 @@
 }
 
 .header a {
-  color: #fff;
+  color: #BB2525;
 }
 
 .headerContent {
@@ -48,7 +48,7 @@
 }
 
 .footer {
-  background: #bbb;
+  /* background: #bbb; */
   padding: 10px;
   text-align: center;
 }

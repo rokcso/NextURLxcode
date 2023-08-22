@@ -21,6 +21,45 @@ export default function Layout({ children, texts }) {
         <link rel="icon" href="/favicon/icon48x48.png" />
         <link rel="icon" href="/favicon/icon64x64.png" />
         <link rel="icon" href="/favicon/icon128x128.png" />
+
+        {/* 私有化部署的 umami 统计分析 */}
+        <script
+          async
+          defer
+          data-website-id="1e1604b8-2b44-4b5f-87f8-f65c78879ff4"
+          src="https://umami.waringhu.com/umami.js"
+        ></script>
+        {/* 百度统计分析 */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?54ef289bd991df8f8430238e83790b15";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    `,
+          }}
+        />
+        {/* Google 统计分析 */}
+        {/* Google tag (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-B1CEHJ1G63"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-B1CEHJ1G63');
+    `,
+          }}
+        />
       </Head>
       <div className={componentStyles.layout}>
         <header className={componentStyles.header}>

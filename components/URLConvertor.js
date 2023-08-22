@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import componentStyles from "./URLConvertor.module.css";
 
 export default function URLConvertor({ texts }) {
+  const safeTexts = texts || {};
   const [copyMsg, setCopyMsg] = useState("");
   const [mode, setMode] = useState("decode");
   const [decoded, setDecoded] = useState("");
@@ -30,12 +31,12 @@ export default function URLConvertor({ texts }) {
     const outputValue = outputRef.current.value;
     try {
       navigator.clipboard.writeText(outputValue);
-      setCopyMsg(texts.copyMsgSuccess);
+      setCopyMsg(safeTexts.copyMsgSuccess);
       setTimeout(() => {
         setCopyMsg("");
       }, 500);
     } catch {
-      setCopyMsg(texts.copyMsgError);
+      setCopyMsg(safeTexts.copyMsgError);
       setTimeout(() => {
         setCopyMsg("");
       }, 500);
@@ -61,16 +62,16 @@ export default function URLConvertor({ texts }) {
   };
   return (
     <div className={componentStyles.convertor}>
-      <h1>{texts.promptTitle}</h1>
+      <h1>{safeTexts.promptTitle}</h1>
       <div className={componentStyles.textAreaBox}>
         <textarea
           className={componentStyles.textInputBox}
-          placeholder={texts.placeHolderInput}
+          placeholder={safeTexts.placeHolderInput}
           ref={inputRef}
         ></textarea>
         <textarea
           className={componentStyles.textOutputBox}
-          placeholder={texts.placeHolderOutput}
+          placeholder={safeTexts.placeHolderOutput}
           ref={outputRef}
           value={mode === "decode" ? decoded : encoded}
           readOnly
@@ -79,12 +80,12 @@ export default function URLConvertor({ texts }) {
       <div className={componentStyles.btnGroupTop}>
         <div className={componentStyles.btnGroupInnerOne}>
           <button className={componentStyles.btnCopy} onClick={handleCopy}>
-            {copyMsg || texts.btnCopyText}
+            {copyMsg || safeTexts.btnCopyText}
           </button>
         </div>
         <div className={componentStyles.btnGroupInnderTwo}>
-          <button onClick={handleDecode}>{texts.btnDecodeText}</button>
-          <button onClick={handleEncode}>{texts.btnEncodeText}</button>
+          <button onClick={handleDecode}>{safeTexts.btnDecodeText}</button>
+          <button onClick={handleEncode}>{safeTexts.btnEncodeText}</button>
           <div className={componentStyles.optionGroup}>
             <div className={componentStyles.singleOption}>
               <input
@@ -95,8 +96,8 @@ export default function URLConvertor({ texts }) {
                   setOptionSelected("uri");
                 }}
               />
-              <label title={texts.URITooltip} htmlFor="uri">
-                {texts.optionURIText}
+              <label title={safeTexts.URITooltip} htmlFor="uri">
+                {safeTexts.optionURIText}
               </label>
             </div>
             <div className={componentStyles.singleOption}>
@@ -108,15 +109,18 @@ export default function URLConvertor({ texts }) {
                   setOptionSelected("uricomponent");
                 }}
               />
-              <label title={texts.URIComponentTooltip} htmlFor="uricomponent">
-                {texts.optionURIComponentText}
+              <label
+                title={safeTexts.URIComponentTooltip}
+                htmlFor="uricomponent"
+              >
+                {safeTexts.optionURIComponentText}
               </label>
             </div>
           </div>
-          <button onClick={handleClear}>{texts.btnClearText}</button>
-          <button onClick={handleSwap}>{texts.btnSwapText}</button>
-          <button onClick={handleParse}>{texts.btnParseText}</button>
-          <button onClick={handleToJson}>{texts.btnToJsonText}</button>
+          <button onClick={handleClear}>{safeTexts.btnClearText}</button>
+          <button onClick={handleSwap}>{safeTexts.btnSwapText}</button>
+          <button onClick={handleParse}>{safeTexts.btnParseText}</button>
+          <button onClick={handleToJson}>{safeTexts.btnToJsonText}</button>
         </div>
       </div>
     </div>

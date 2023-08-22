@@ -3,15 +3,19 @@ import Head from "next/head";
 import Link from "next/link";
 
 export default function Layout({ children, texts }) {
+  const safeTexts = texts || {};
   return (
     <>
       <Head>
         {/* BaiDu 搜索资源站点验证 */}
         <meta name="baidu-site-verification" content="codeva-yd4vTyGhor" />
         {/* Google 搜索资源站点验证 */}
-        <meta name="google-site-verification" content="h9_G-edVa7uTlUrYdzBl-7zMXQbInCXjG70uZ__CVmk" />
-        <title>{texts.siteTitle}</title>
-        <meta name="description" content={texts.siteDescription} />
+        <meta
+          name="google-site-verification"
+          content="h9_G-edVa7uTlUrYdzBl-7zMXQbInCXjG70uZ__CVmk"
+        />
+        <title>{safeTexts.siteTitle}</title>
+        <meta name="description" content={safeTexts.siteDescription} />
         <link rel="icon" href="/favicon/icon16x16.png" />
         <link rel="icon" href="/favicon/icon32x32.png" />
         <link rel="icon" href="/favicon/icon48x48.png" />
@@ -22,7 +26,7 @@ export default function Layout({ children, texts }) {
         <header className={componentStyles.header}>
           <div className={componentStyles.headerContent}>
             <Link href="/" className={componentStyles.logo}>
-              <span>URL xcode</span>
+              <span>URLxcode</span>
               <br />
               <span>x = En/De</span>
             </Link>
@@ -41,7 +45,8 @@ export default function Layout({ children, texts }) {
         <footer className={componentStyles.footer}>
           <span>Online URL Encode/Decode Tool.&nbsp;</span>
           <span>
-            Copyright &copy; 2023 <Link href="/">{texts.siteName}</Link>.&nbsp;
+            Copyright &copy; 2023 <Link href="/">{safeTexts.siteName}</Link>
+            .&nbsp;
           </span>
           <span>All rights reserved.</span>
         </footer>

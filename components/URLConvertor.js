@@ -58,50 +58,86 @@ export default function URLConvertor({ texts }) {
     }
   };
 
+  // 设定编码选项默认为 encodeURI
+  const [optionSelected, setOptionSelected] = useState("uri");
+
+  // 编码功能
   const handleEncode = () => {
+    // 获取当前输入内容
     const inputValue = inputRef.current.value;
-    let encoded = "";
-    if (optionSelected === "uri") {
-      encoded = encodeURI(inputValue);
-    } else {
-      encoded = encodeURIComponent(inputValue);
+    // 判断输入是否为空，为空则结束
+    if (inputValue.trim() === "") {
+      setInputIsEmpty(true);
+      return;
     }
-    setResult(encoded);
+    // 如果编码模式选择的 encodeURI
+    if (optionSelected === "uri") {
+      try {
+        // 尝试编码
+        const encoded = encodeURI(inputValue);
+        setResult(encoded);
+      } catch {
+        // 编码失败
+        setInputIsInvalid(true);
+      }
+    } else {
+      try {
+        const encoded = encodeURIComponent(inputValue);
+        setResult(encoded);
+      } catch {
+        setInputIsInvalid(true);
+      }
+    }
   };
 
-  const [optionSelected, setOptionSelected] = useState("uri");
-  // 如果 input 发生变化，调整 input 状态
+  // 清除功能
+  const handleClear = () => {
+    // 将 input 和 output 的内容值设定为空
+    inputRef.current.value = "";
+    outputRef.current.value = "";
+    setResult("");
+  };
+
+  // 如果 input 发生变化，调整 input 状态，清除异常提醒
   const handleInputChange = () => {
     setInputIsEmpty(false);
     setInputIsInvalid(false);
+    setResult("");
   };
 
-  const handleClear = () => {
-    setResult("");
-    inputRef.current.value = "";
-    outputRef.current.value = "";
-    handleInputChange();
-  };
+  // 交换 input output
   const handleSwap = () => {
     const input = inputRef.current.value;
     const output = outputRef.current.value;
     inputRef.current.value = output;
-    outputRef.current.value = input;
+    setResult(input);
   };
-  const handleParse = () => {};
+
+  // 解析 URL 功能
+  const handleParse = () => {
+    const result = "该功能暂不可用";
+    setResult(result);
+  };
+
+  // URL 转 Json 功能
   const handleToJson = () => {
-    const url = inputRef.current.value;
-    const params = new URLSearchParams(url);
-    setEncoded(JSON.stringify(Object.fromEntries(params)));
+    const result = "该功能暂不可用";
+    setResult(result);
   };
+
+  // 输入框的 class，根据条件判断为 input 赋予不同的 class，用以修改不同的样式
   const inputTextAreaClassName = `${componentStyles.textInputBox} ${
     inputIsEmpty ? componentStyles.emptyInput : ""
   } ${inputIsInvalid ? componentStyles.invalidInput : ""}`;
+
+  // 提示内容，根据条件判断赋值不同的提示内容
   const runTips = inputIsEmpty
     ? safeTexts.inputEmptyTips
     : inputIsInvalid
     ? safeTexts.inputInvalidTips
     : "";
+
+  // 返回 HTML 内容
   return (
     <div className={componentStyles.convertor}>
       <h1>{safeTexts.promptTitle}</h1>
@@ -129,6 +165,7 @@ export default function URLConvertor({ texts }) {
         <div className={componentStyles.btnGroupInnerOne}>
           {/* 复制按钮，点击执行 handleCopy 方法，如果复制操作提示信息为空，就显示按钮文案 */}
           <button className={componentStyles.btnCopy} onClick={handleCopy}>
+            {/* 如果复制操作提示信息没有内容，就显示按钮文字，否则显示提示信息 */}
             {copyMsg || safeTexts.btnCopyText}
           </button>
         </div>

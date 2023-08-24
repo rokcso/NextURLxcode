@@ -30,6 +30,11 @@
     display: flex;
   }
 
+  .runTips span {
+    display: flex;
+    align-items: center;
+  }
+
   .runTipsText {
     color: #FF6969;
   }

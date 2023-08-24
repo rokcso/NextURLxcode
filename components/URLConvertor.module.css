@@ -40,11 +40,14 @@
   }
   
   .btnGroupInnerOne {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 10px;  
   }
   
   .btnCopy {
-    width: 100%;
+    width: 50%;
+    margin: 0 5px;
     height: 36px;
   }
   

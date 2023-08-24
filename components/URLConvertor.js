@@ -10,25 +10,41 @@ export default function URLConvertor({ texts }) {
   const outputRef = useRef(null);
 
   // 复制操作提示信息
-  const [copyMsg, setCopyMsg] = useState("");
+  const [copyInputMsg, setCopyInputMsg] = useState("");
+  const [copyOutputMsg, setCopyOutputMsg] = useState("");
   // 复制功能
-  const handleCopy = () => {
+  const handleCopyOutput = () => {
     // 获取当前输出内容
     const outputValue = outputRef.current.value;
     try {
       navigator.clipboard.writeText(outputValue);
       // 如果复制内容到剪贴板成功，就设定复制操作提示信息为成功提示
-      setCopyMsg(safeTexts.copyMsgSuccess);
+      setCopyOutputMsg(safeTexts.copyMsgSuccess);
       // 500ms 后清空复制操作提示信息
       setTimeout(() => {
-        setCopyMsg("");
+        setCopyOutputMsg("");
       }, 500);
     } catch {
       // 如果复制内容到剪贴板失败，就设定复制操作提示信息为失败提示
-      setCopyMsg(safeTexts.copyMsgError);
+      setCopyOutputMsg(safeTexts.copyMsgError);
       // 500ms 后清空复制操作提示信息
       setTimeout(() => {
-        setCopyMsg("");
+        setCopyOutputMsg("");
+      }, 500);
+    }
+  };
+  const handleCopyInput = () => {
+    const inputValue = inputRef.current.value;
+    try {
+      navigator.clipboard.writeText(inputValue);
+      setCopyInputMsg(safeTexts.copyMsgSuccess);
+      setTimeout(() => {
+        setCopyInputMsg("");
+      }, 500);
+    } catch {
+      setCopyInputMsg(safeTexts.copyMsgError);
+      setTimeout(() => {
+        setCopyInputMsg("");
       }, 500);
     }
   };
@@ -164,9 +180,15 @@ export default function URLConvertor({ texts }) {
       <div className={componentStyles.btnGroupTop}>
         <div className={componentStyles.btnGroupInnerOne}>
           {/* 复制按钮，点击执行 handleCopy 方法，如果复制操作提示信息为空，就显示按钮文案 */}
-          <button className={componentStyles.btnCopy} onClick={handleCopy}>
+          <button className={componentStyles.btnCopy} onClick={handleCopyInput}>
+            {copyInputMsg || safeTexts.btnCopyInputText}
+          </button>
+          <button
+            className={componentStyles.btnCopy}
+            onClick={handleCopyOutput}
+          >
             {/* 如果复制操作提示信息没有内容，就显示按钮文字，否则显示提示信息 */}
-            {copyMsg || safeTexts.btnCopyText}
+            {copyOutputMsg || safeTexts.btnCopyOutputText}
           </button>
         </div>
         <div className={componentStyles.btnGroupInnderTwo}>

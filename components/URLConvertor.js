@@ -110,8 +110,9 @@ export default function URLConvertor({ texts }) {
   const handleClear = () => {
     // 将 input 和 output 的内容值设定为空
     inputRef.current.value = "";
-    outputRef.current.value = "";
     setResult("");
+    setInputIsEmpty(false);
+    setInputIsInvalid(false);
   };
 
   // 如果 input 发生变化，调整 input 状态，清除异常提醒

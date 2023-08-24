@@ -132,13 +132,55 @@ export default function URLConvertor({ texts }) {
 
   // 解析 URL 功能
   const handleParse = () => {
-    const result = "该功能暂不可用";
+    const inputValue = inputRef.current.value;
+    if (!validateURL(inputValue)) {
+      // 输入的内容不符合 URL 格式
+      setInputIsInvalid(true);
+      return;
+    };
+    let result = "";
+    // 匹配解析 URL 的各个组成部分
+    const urlObj = new URL(inputValue);
+    // 非请求参数部分
+    result += urlObj.protocol + "//" + urlObj.hostname + urlObj.pathname + "\n";
+    // 请求参数部分
+    if (urlObj.searchParams) {
+      urlObj.searchParams.forEach((key, value) => {
+        result += value + "=" + key + "\n";
+      });
+    }
     setResult(result);
+  };
+
+  // URL 格式校验
+  const validateURL = (url) => {
+    try {
+      // 创建 URL 对象，不能成功创建则说明传入的 url 不符合 URL 格式要求
+      new URL(url);
+      return true;
+    } catch {
+      return false;
+    }
   };
 
   // URL 转 Json 功能
   const handleToJson = () => {
-    const result = "该功能暂不可用";
+    const inputValue = inputRef.current.value;
+    if (!validateURL(inputValue)) {
+      // 输入的内容不符合 URL 格式
+      setInputIsInvalid(true);
+      return;
+    }
+    const urlObj = new URL(inputValue);
+    const resJson = {
+      protocol: urlObj.protocol,
+      hostname: urlObj.hostname, 
+      pathname: urlObj.pathname,
+      // 将 URLSearchParams 对象（以 ["key", "value"] 形式存储 URL 请求参数键值对）转换为 JavaScript 普通对象格式
+      searchParams: Object.fromEntries(urlObj.searchParams)
+    };
+    // 将 resJson 序列化为 JSON 字符串，null 意味着不过滤任何内容，2 意味着每层 JSON 对象缩进 2 空格
+    const result = JSON.stringify(resJson, null, 2)
     setResult(result);
   };
 

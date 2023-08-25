@@ -4,6 +4,7 @@ import useI18n from "../lib/useI18n";
 
 export default function Home() {
   const texts = useI18n();
+
   return (
     <Layout texts={texts}>
       <URLConvertor texts={texts} />

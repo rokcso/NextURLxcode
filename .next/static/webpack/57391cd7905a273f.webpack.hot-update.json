@@ -1,0 +1,1 @@
+{"c":["pages/index","webpack"],"r":["pages/post/[id]"],"m":["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=%2FUsers%2Fwaringhu%2FDeveloper%2FnextURLxcode%2Fpages%2Fpost%2F%5Bid%5D.js&page=%2Fpost%2F%5Bid%5D!","./pages/api/post.js","./pages/post/[id].js","./public/posts/en.json"]}

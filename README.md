@@ -22,10 +22,15 @@
       |-- index.js
    |-- jp
       |-- index.js
+   |-- post
+      |-- [id].js
 |-- public
    |-- i18n.json
    |-- robots.txt
    |-- sitemap.xml
+   |-- posts
+      |-- en.json
+      |-- zh.json
    |-- favicon
       |-- icon16x16.png
       |-- icon32x32.png

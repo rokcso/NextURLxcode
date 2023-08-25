@@ -137,7 +137,7 @@ export default function URLConvertor({ texts }) {
       // 输入的内容不符合 URL 格式
       setInputIsInvalid(true);
       return;
-    };
+    }
     let result = "";
     // 匹配解析 URL 的各个组成部分
     const urlObj = new URL(inputValue);
@@ -174,13 +174,13 @@ export default function URLConvertor({ texts }) {
     const urlObj = new URL(inputValue);
     const resJson = {
       protocol: urlObj.protocol,
-      hostname: urlObj.hostname, 
+      hostname: urlObj.hostname,
       pathname: urlObj.pathname,
       // 将 URLSearchParams 对象（以 ["key", "value"] 形式存储 URL 请求参数键值对）转换为 JavaScript 普通对象格式
-      searchParams: Object.fromEntries(urlObj.searchParams)
+      searchParams: Object.fromEntries(urlObj.searchParams),
     };
     // 将 resJson 序列化为 JSON 字符串，null 意味着不过滤任何内容，2 意味着每层 JSON 对象缩进 2 空格
-    const result = JSON.stringify(resJson, null, 2)
+    const result = JSON.stringify(resJson, null, 2);
     setResult(result);
   };
 
@@ -216,9 +216,11 @@ export default function URLConvertor({ texts }) {
         ></textarea>
       </div>
       <div className={componentStyles.runTips}>
-        <span>{safeTexts.runTipsTitle}</span>
-        &nbsp;
-        <span className={componentStyles.runTipsText}>{runTips}</span>
+        <span>
+          {safeTexts.runTipsTitle}
+          &nbsp;
+          <span className={componentStyles.runTipsText}>{runTips}</span>
+        </span>
       </div>
       <div className={componentStyles.btnGroupTop}>
         <div className={componentStyles.btnGroupInnerOne}>

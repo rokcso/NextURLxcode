@@ -29,6 +29,11 @@ export default function Layout({ children, texts }) {
           data-website-id="1e1604b8-2b44-4b5f-87f8-f65c78879ff4"
           src="https://umami.waringhu.com/umami.js"
         ></script>
+        <script
+          async
+          src="https://umami.rokcso.com/script.js"
+          data-website-id="6cdcdba8-3a86-4ae9-9244-bfc1ef144b6e"
+        ></script>
         {/* 百度统计分析 */}
         <script
           dangerouslySetInnerHTML={{

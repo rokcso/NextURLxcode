@@ -25,12 +25,6 @@ export default function Layout({ children, texts }) {
         {/* 私有化部署的 umami 统计分析 */}
         <script
           async
-          defer
-          data-website-id="1e1604b8-2b44-4b5f-87f8-f65c78879ff4"
-          src="https://umami.waringhu.com/umami.js"
-        ></script>
-        <script
-          async
           src="https://umami.rokcso.com/script.js"
           data-website-id="6cdcdba8-3a86-4ae9-9244-bfc1ef144b6e"
         ></script>
@@ -89,7 +83,7 @@ export default function Layout({ children, texts }) {
         <footer className={componentStyles.footer}>
           <span>Online URL Encode/Decode Tool.&nbsp;</span>
           <span>
-            Copyright &copy; 2023 <Link href="https://rok.ink">rok.ink</Link>
+            Copyright &copy; 2023 <Link href="https://rokcso.com">rokcso</Link>
             .&nbsp;
           </span>
           <span>All rights reserved.</span>

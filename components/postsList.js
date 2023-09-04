@@ -11,6 +11,7 @@ export default function PostsList({ posts, texts }) {
   return (
     <>
       <div>
+        <br /><br /><br /><br /><br /><br />
         <h2>{safeTexts.aboutURL}</h2>
         <div>
           {posts.map((post) => (

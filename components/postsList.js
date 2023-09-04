@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-export default function PostsList({ posts }) {
+export default function PostsList({ posts, texts }) {
+  const safeTexts = texts || {};
   const { pathname } = useRouter();
   let path = "";
   if (pathname !== "/") {
@@ -10,7 +11,7 @@ export default function PostsList({ posts }) {
   return (
     <>
       <div>
-        <h2>About URL</h2>
+        <h2>{safeTexts.aboutURL}</h2>
         <div>
           {posts.map((post) => (
             <div key={post.id}>

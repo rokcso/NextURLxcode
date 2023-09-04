@@ -22,7 +22,8 @@
     "optionURIText": "Don't encode special characters",
     "optionURIComponentText": "Encode special characters",
     "URITooltip": "Using the encodeURI() method of JavaScript to implement.",
-    "URIComponentTooltip": "Using the encodeURIComponent() method of JavaScript to implement."
+    "URIComponentTooltip": "Using the encodeURIComponent() method of JavaScript to implement.",
+    "aboutURL": "About URL"
   },
   "zh": {
     "siteName": "URLxcode",
@@ -47,7 +48,8 @@
     "optionURIText": "不对特殊字符进行编码",
     "optionURIComponentText": "对特殊字符进行编码",
     "URITooltip": "使用 JavaScript 的 encodeURI() 方法实现。",
-    "URIComponentTooltip": "使用 JavaScript 的 encodeURIComponent() 方法实现。"
+    "URIComponentTooltip": "使用 JavaScript 的 encodeURIComponent() 方法实现。",
+    "aboutURL": "关于 URL"
   },
   "jp": {
     "siteName": "URLxcode",
@@ -72,7 +74,8 @@
     "optionURIText": "特殊文字をエンコードしない",
     "optionURIComponentText": "特殊文字をエンコードする",
     "URITooltip": "JavaScript の encodeURI() メソッドを使用して実装。",
-    "URIComponentTooltip": "JavaScript の encodeURIComponent() メソッドを使用して実装。"
+    "URIComponentTooltip": "JavaScript の encodeURIComponent() メソッドを使用して実装。",
+    "aboutURL": "URLについて"
   },
   "kr": {
     "siteName": "URLxcode",
@@ -97,6 +100,7 @@
     "optionURIText": "특수 문자 인코딩 안 함",
     "optionURIComponentText": "특수 문자 인코딩",
     "URITooltip": "자바스크립트의 encodeURI() 메서드를 사용하여 구현합니다.",
-    "URIComponentTooltip": "자바스크립트의 encodeURIComponent() 메서드를 사용하여 구현합니다."
+    "URIComponentTooltip": "자바스크립트의 encodeURIComponent() 메서드를 사용하여 구현합니다.",
+    "aboutURL": "URL 정보"
   }
 }

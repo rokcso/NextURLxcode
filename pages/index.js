@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Layout texts={texts}>
       <URLConvertor texts={texts} />
-      <PostsList posts={posts} />
+      <PostsList posts={posts} texts={texts} />
     </Layout>
   );
 }

@@ -81,7 +81,7 @@ export default function Layout({ children, texts }) {
               <nav>
                 <Link href={`/`}>English</Link>
                 &nbsp;
-                <Link href={`/zh}`}>简体中文</Link>
+                <Link href={`/zh`}>简体中文</Link>
                 &nbsp;
                 <Link href={`/kr`}>한국인</Link>
                 &nbsp;

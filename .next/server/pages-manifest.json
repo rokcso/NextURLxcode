@@ -2,5 +2,12 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/zh/posts/[id]": "pages/zh/posts/[id].js",
+  "/": "pages/index.js",
+  "/jp": "pages/jp.js",
+  "/jp/posts/[id]": "pages/jp/posts/[id].js",
+  "/zh": "pages/zh.js",
+  "/kr": "pages/kr.js",
+  "/kr/posts/[id]": "pages/kr/posts/[id].js",
+  "/posts/[id]": "pages/posts/[id].js"
 }

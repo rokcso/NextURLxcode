@@ -1,9 +1,18 @@
 import componentStyles from "./layout.module.css";
 import Head from "next/head";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Layout({ children, texts }) {
   const safeTexts = texts || {};
+  const { pathname } = useRouter();
+  let homePath = "";
+  if (pathname.split("/")[1] === "posts") {
+    homePath = "";
+  } else {
+    homePath = pathname.split("/")[1] || "";
+  }
+
   return (
     <>
       <Head>
@@ -63,20 +72,24 @@ export default function Layout({ children, texts }) {
       <div className={componentStyles.layout}>
         <header className={componentStyles.header}>
           <div className={componentStyles.headerContent}>
-            <Link href="/" className={componentStyles.logo}>
+            <Link href={`/${homePath}`} className={componentStyles.logo}>
               <span>URLxcode</span>
               <br />
               <span>x = En/De</span>
             </Link>
-            <nav>
-              <Link href="/">English</Link>
-              &nbsp;
-              <Link href="/zh">简体中文</Link>
-              &nbsp;
-              <Link href="/kr">한국인</Link>
-              &nbsp;
-              <Link href="/jp">日本語</Link>
-            </nav>
+            {pathname.length <= 3 ? (
+              <nav>
+                <Link href={`/`}>English</Link>
+                &nbsp;
+                <Link href={`/zh`}>简体中文</Link>
+                &nbsp;
+                <Link href={`/kr`}>한국인</Link>
+                &nbsp;
+                <Link href={`/jp`}>日本語</Link>
+              </nav>
+            ) : (
+              ""
+            )}
           </div>
         </header>
         <main className={componentStyles.main}>{children}</main>

@@ -7,7 +7,7 @@ export default function Layout({ children, texts }) {
   const safeTexts = texts || {};
   const { pathname } = useRouter();
   let homePath = "";
-  if (pathname.split("/")[1] === "posts") {
+  if (pathname.split("/")[1].length !== 2) {
     homePath = "";
   } else {
     homePath = pathname.split("/")[1] || "";
@@ -81,7 +81,7 @@ export default function Layout({ children, texts }) {
               <nav>
                 <Link href={`/`}>English</Link>
                 &nbsp;
-                <Link href={`/zh`}>简体中文</Link>
+                <Link href={`/zh}`}>简体中文</Link>
                 &nbsp;
                 <Link href={`/kr`}>한국인</Link>
                 &nbsp;

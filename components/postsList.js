@@ -16,7 +16,7 @@ export default function PostsList({ posts, texts }) {
         <div>
           {posts.map((post) => (
             <div key={post.id}>
-              <Link href={`${path}/posts/${post.id}`}>
+              <Link href={`${path}/${post.id}`}>
                 <h3>{post.title}</h3>
               </Link>
               <p>{post.excerpt}</p>

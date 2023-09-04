@@ -4,11 +4,16 @@ import postsData from "../../../public/posts/zh.json";
 
 export default function Post({ post }) {
   const texts = useI18n();
+  const pStr = post.content.split("[|]");
   return (
     <>
       <Layout texts={texts}>
-        <h1>{post.title}</h1>
-        <p>{post.content}</p>
+        <div>
+          <h1>{post.title}</h1>
+          {pStr.map((str, index) => (
+            <p key={index}>{`${str}`}</p>
+          ))}
+        </div>
       </Layout>
     </>
   );

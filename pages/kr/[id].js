@@ -1,13 +1,13 @@
 import Layout from "../../components/layout";
-import useI18n from "../../lib/useI18n";
+import CustomHead from "../../components/customHead";
 import postsData from "../../public/posts/kr.json";
 
 export default function Post({ post }) {
-  const texts = useI18n();
   const pStr = post.content.split("[|]");
   return (
     <>
-      <Layout texts={texts}>
+      <Layout>
+        <CustomHead texts={post} />
         <div>
           <h1>{post.title}</h1>
           {pStr.map((str, index) => (

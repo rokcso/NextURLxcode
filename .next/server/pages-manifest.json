@@ -2,10 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/404": "pages/404.js",
-  "/jp": "pages/jp.js",
-  "/jp/[id]": "pages/jp/[id].js",
-  "/kr": "pages/kr.js",
-  "/zh": "pages/zh.js"
+  "/ru": "pages/ru.js",
+  "/ru/[id]": "pages/ru/[id].js",
+  "/": "pages/index.js"
 }

@@ -110,5 +110,33 @@
     "URITooltip": "자바스크립트의 encodeURI() 메서드를 사용하여 구현합니다.",
     "URIComponentTooltip": "자바스크립트의 encodeURIComponent() 메서드를 사용하여 구현합니다.",
     "aboutURL": "URL 정보"
+  },
+  "ru": {
+    "siteName": "URLxcode",
+    "siteTitle": "Кодирование/декодирование URL-адреса — URL-адрес в JSON — Анализ параметров URL-адреса — онлайн-инструмент - URLxcode.com",
+    "siteDescription": "URLxcode — это набор простых в использовании онлайн-инструментов URL-адресов, предоставляющих услуги кодирования/декодирования URL-адресов, поддерживающих анализ параметров URL-адресов и их преобразование в JSON, включая знания, связанные с URL-адресами.",
+    "siteKeywords": "URL, Кодировать, Декодировать, Онлайн, Инструмент",
+    "siteCanonical": "https://www.urlxcode.com",
+    "placeHolderInput": "Введите текст для кодирования/декодирования, например: https://www.urlxcode.com/",
+    "placeHolderOutput": "Результат кодирования/декодирования URL.",
+    "promptTitle": "Кодировать в формат URL-кодирования или декодировать из него",
+    "inputEmptyTips": "Ввод пуст!",
+    "inputInvalidTips": "Ввод недействителен!",
+    "runTipsTitle": "❤️ URLxcode.com:",
+    "copyMsgSuccess": "Скопировано!",
+    "copyMsgError": "Копировать не удалось.",
+    "btnCopyInputText": "Копировать ввод",
+    "btnCopyOutputText": "Копировать вывод",
+    "btnDecodeText": "Декодировать",
+    "btnEncodeText": "Кодировать",
+    "btnClearText": "Прозрачный",
+    "btnSwapText": "Менять",
+    "btnParseText": "Анализ параметров",
+    "btnToJsonText": "Преобразовать в JSON",
+    "optionURIText": "Не кодировать специальный символs",
+    "optionURIComponentText": "Кодировать специальные символы",
+    "URITooltip": "Для реализации используется метод JavaScript encodeURI().",
+    "URIComponentTooltip": "Для реализации используется метод JavaScript encodeURIComponent().",
+    "aboutURL": "О URL-адресе"
   }
 }

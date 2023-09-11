@@ -27,9 +27,12 @@ export default function Layout({ children }) {
                 &nbsp;
                 <Link href={`/zh`}>简体中文</Link>
                 &nbsp;
+                <Link href={`/tc`}>繁體中文</Link>
+                &nbsp;
                 <Link href={`/kr`}>한국인</Link>
                 &nbsp;
-                <Link href={`/jp`}>日本語</Link>&nbsp;
+                <Link href={`/jp`}>日本語</Link>
+                &nbsp;
                 <Link href={`/ru`}>Русский</Link>
               </nav>
             ) : (

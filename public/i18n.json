@@ -138,5 +138,33 @@
     "URITooltip": "Для реализации используется метод JavaScript encodeURI().",
     "URIComponentTooltip": "Для реализации используется метод JavaScript encodeURIComponent().",
     "aboutURL": "О URL-адресе"
+  },
+  "tc": {
+    "siteName": "URLxcode",
+    "siteTitle": "URL 編碼/解碼 - URL 轉 JSON - URL 參數解析 - 在線工具 - URLxcode.com",
+    "siteDescription": "URLxcode是一個簡單易用的URL在線工具集合，提供URL編碼/解碼服務，支持URL參數解析並轉換為JSON，包含URL相關知識。",
+    "siteKeywords": "URL, 編碼, 解碼, 在線, 工具",
+    "siteCanonical": "https://www.urlxcode.com/tc",
+    "placeHolderInput": "請輸入要編碼/解碼的文本，例如：https://www.urlxcode.com/",
+    "placeHolderOutput": "URL 編碼/解碼結果。",
+    "promptTitle": "編碼為 URL 編碼格式或從中解碼",
+    "inputEmptyTips": "輸入內容為空！",
+    "inputInvalidTips": "輸入無效！",
+    "runTipsTitle": "❤️ URLxcode.com:",
+    "copyMsgSuccess": "複製了！",
+    "copyMsgError": "複製失敗。",
+    "btnCopyInputText": "複製輸入",
+    "btnCopyOutputText": "複製輸出",
+    "btnDecodeText": "解碼",
+    "btnEncodeText": "編碼",
+    "btnClearText": "清除",
+    "btnSwapText": "交換",
+    "btnParseText": "解析參數",
+    "btnToJsonText": "轉為 JSON",
+    "optionURIText": "不要對特殊字符進行編碼",
+    "optionURIComponentText": "對特殊字符進行編碼",
+    "URITooltip": "使用JavaScript的encodeURI()方法來實現。",
+    "URIComponentTooltip": "使用JavaScript的encodeURIComponent()方法來實現。",
+    "aboutURL": "關於 URL"
   }
 }

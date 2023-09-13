@@ -166,5 +166,33 @@
     "URITooltip": "使用JavaScript的encodeURI()方法來實現。",
     "URIComponentTooltip": "使用JavaScript的encodeURIComponent()方法來實現。",
     "aboutURL": "關於 URL"
+  },
+  "es": {
+    "siteName": "URLxcode",
+    "siteTitle": "Codificación/decodificación de URL - Convertir a JSON - Análisis de parámetros de URL - Herramienta en línea - URLxcode.com",
+    "siteDescription": "URLxcode es una colección de herramientas de URL en línea fáciles de usar, que proporciona servicios de codificación/decodificación de URL, admite el análisis de parámetros de URL y la conversión a JSON, incluido el conocimiento relacionado con URL.",
+    "siteKeywords": "URL, Codificar, Decodificar, En Línea, Herramienta",
+    "siteCanonical": "https://www.urlxcode.com/es",
+    "placeHolderInput": "Por favor ingrese el texto para codificar/decodificar, por ejemplo: https://www.urlxcode.com/",
+    "placeHolderOutput": "Resultado URL codificado/decodificado.",
+    "promptTitle": "Codificar en formato codificado en URL o decodificarlo",
+    "inputEmptyTips": "¡La entrada está vacía!",
+    "inputInvalidTips": "¡La entrada no es válida!",
+    "runTipsTitle": "❤️ URLxcode.com:",
+    "copyMsgSuccess": "Éxito!",
+    "copyMsgError": "La copia falló.",
+    "btnCopyInputText": "Copiar entrada",
+    "btnCopyOutputText": "Copiar salida",
+    "btnDecodeText": "Descodificar",
+    "btnEncodeText": "Codificar",
+    "btnClearText": "Claro",
+    "btnSwapText": "Intercambio",
+    "btnParseText": "Analizar parámetros",
+    "btnToJsonText": "Convertir a JSON",
+    "optionURIText": "No codificar caracteres especiales",
+    "optionURIComponentText": "Codificar caracteres especiales",
+    "URITooltip": "Usando el método encodeURI() de JavaScript para implementar.",
+    "URIComponentTooltip": "Usando el método encodeURIComponent() de JavaScript para implementar.",
+    "aboutURL": "Acerca de la URL"
   }
 }

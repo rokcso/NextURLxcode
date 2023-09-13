@@ -12,6 +12,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -22,15 +27,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/ru": [
+    "/es": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/ru.js"
+      "static/chunks/pages/es.js"
     ],
-    "/ru/[id]": [
+    "/es/[id]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/ru/[id].js"
+      "static/chunks/pages/es/[id].js"
     ]
   },
   "ampFirstPages": []

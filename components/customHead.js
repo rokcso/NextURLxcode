@@ -5,13 +5,6 @@ export default function CustomHead({ texts }) {
   return (
     <>
       <Head>
-        {/* BaiDu 搜索资源站点验证 */}
-        <meta name="baidu-site-verification" content="codeva-yd4vTyGhor" />
-        {/* Google 搜索资源站点验证 */}
-        <meta
-          name="google-site-verification"
-          content="h9_G-edVa7uTlUrYdzBl-7zMXQbInCXjG70uZ__CVmk"
-        />
         <title>{safeTexts.siteTitle}</title>
         <meta name="description" content={safeTexts.siteDescription} />
         <meta name="keywords" content={safeTexts.siteKeywords} />
@@ -28,8 +21,11 @@ export default function CustomHead({ texts }) {
           src="https://umami.rokcso.com/script.js"
           data-website-id="6cdcdba8-3a86-4ae9-9244-bfc1ef144b6e"
         ></script>
+        {/* 百度搜索资源平台站点验证 */}
+        <meta name="baidu-site-verification" content="codeva-yd4vTyGhor" />
+
         {/* 百度统计分析 */}
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
     var _hmt = _hmt || [];
@@ -41,10 +37,10 @@ export default function CustomHead({ texts }) {
     })();
     `,
           }}
-        />
+        /> */}
         {/* Google 统计分析 */}
         {/* Google tag (gtag.js) */}
-        <script
+        {/* <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-B1CEHJ1G63"
         ></script>
@@ -58,7 +54,7 @@ export default function CustomHead({ texts }) {
     gtag('config', 'G-B1CEHJ1G63');
     `,
           }}
-        />
+        /> */}
       </Head>
     </>
   );

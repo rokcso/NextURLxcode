@@ -9,10 +9,12 @@ export default function Home() {
   const texts = useI18n();
   const posts = getPostsData();
   return (
-    <Layout>
+    <>
       <CustomHead texts={texts} />
-      <URLConvertor texts={texts} />
-      <PostsList posts={posts} texts={texts} />
-    </Layout>
+      <Layout>
+        <URLConvertor texts={texts} />
+        <PostsList posts={posts} texts={texts} />
+      </Layout>
+    </>
   );
 }

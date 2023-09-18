@@ -4,12 +4,17 @@ import { useRouter } from "next/router";
 
 export default function Layout({ children }) {
   const { pathname } = useRouter();
-  let homePath = "";
-  if (pathname.split("/")[1].length !== 2) {
-    homePath = "";
-  } else {
-    homePath = pathname.split("/")[1] || "";
-  }
+  const homePath = pathname.split("/")[1] || "";
+  const languageOptions = [
+    { path: "/", label: "English" },
+    { path: "/zh", label: "简体中文" },
+    { path: "/tc", label: "繁體中文" },
+    { path: "/kr", label: "한국인" },
+    { path: "/jp", label: "日本語" },
+    { path: "/ru", label: "Русский" },
+    { path: "/es", label: "Español" },
+    { path: "/vn", label: "Tiếng Việt" },
+  ];
 
   return (
     <>
@@ -21,26 +26,15 @@ export default function Layout({ children }) {
               <br />
               <span>x = En/De</span>
             </Link>
-            {pathname.length <= 3 ? (
+            {pathname.length <= 3 && (
               <nav>
-                <Link href={`/`}>English</Link>
-                &nbsp;
-                <Link href={`/zh`}>简体中文</Link>
-                &nbsp;
-                <Link href={`/tc`}>繁體中文</Link>
-                &nbsp;
-                <Link href={`/kr`}>한국인</Link>
-                &nbsp;
-                <Link href={`/jp`}>日本語</Link>
-                &nbsp;
-                <Link href={`/ru`}>Русский</Link>
-                &nbsp;
-                <Link href={`/es`}>Español</Link>
-                &nbsp;
-                <Link href={`/vn`}>Tiếng Việt</Link>
+                {languageOptions.map((item) => (
+                  <span key={item.path}>
+                    &nbsp;
+                    <Link href={item.path}>{item.label}</Link>
+                  </span>
+                ))}
               </nav>
-            ) : (
-              ""
             )}
           </div>
         </header>

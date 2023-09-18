@@ -1,5 +1,6 @@
 {
   "en": {
+    "langToEn": "English",
     "siteName": "URLxcode",
     "siteTitle": "URL Encode/Decode - URL to JSON - URL Params Parse - Online Tool - URLxcode.com",
     "siteDescription": "URLxcode is a collection of easy-to-use URL online tools, providing URL encoding/decoding services, supporting URL parameter parsing and converting to JSON, including URL-related knowledge.",
@@ -28,6 +29,7 @@
     "aboutURL": "About URL"
   },
   "zh": {
+    "langToEn": "Simplified Chinese",
     "siteName": "URLxcode",
     "siteTitle": "URL 编码/解码 - URL 转 JSON - URL 参数解析 - 在线工具 - URLxcode.com",
     "siteDescription": "URLxcode 是一个简单易用的 URL 在线工具集合，提供 URL 编码/解码服务，支持 URL 参数解析并转换为 JSON，包含 URL 相关知识。",
@@ -56,6 +58,7 @@
     "aboutURL": "关于 URL"
   },
   "jp": {
+    "langToEn": "Japanese",
     "siteName": "URLxcode",
     "siteTitle": "URL エンコード/デコード - URL から JSON への変換 - URL パラメータ解析 - オンライン ツール - URLxcode.com",
     "siteDescription": "URLxcode は、URL エンコード/デコード サービスを提供し、URL パラメーターの解析と JSON への変換をサポートし、URL 関連の知識を含む使いやすい URL オンライン ツールのコレクションです。",
@@ -84,6 +87,7 @@
     "aboutURL": "URLについて"
   },
   "kr": {
+    "langToEn": "Korean",
     "siteName": "URLxcode",
     "siteTitle": "URL 인코딩/디코드 - URL을 JSON으로 변환 - URL 매개변수 구문 분석 - 온라인 도구 - URLxcode.com",
     "siteDescription": "URLxcode는 URL 관련 지식을 포함하여 URL 인코딩/디코딩 서비스를 제공하고 URL 매개변수 구문 분석 및 JSON으로 변환을 지원하는 사용하기 쉬운 URL 온라인 도구 모음입니다.",
@@ -112,6 +116,7 @@
     "aboutURL": "URL 정보"
   },
   "ru": {
+    "langToEn": "Russian",
     "siteName": "URLxcode",
     "siteTitle": "Кодирование/декодирование URL-адреса — URL-адрес в JSON — Анализ параметров URL-адреса — онлайн-инструмент - URLxcode.com",
     "siteDescription": "URLxcode — это набор простых в использовании онлайн-инструментов URL-адресов, предоставляющих услуги кодирования/декодирования URL-адресов, поддерживающих анализ параметров URL-адресов и их преобразование в JSON, включая знания, связанные с URL-адресами.",
@@ -140,6 +145,7 @@
     "aboutURL": "О URL-адресе"
   },
   "tc": {
+    "langToEn": "Traditional Chinese",
     "siteName": "URLxcode",
     "siteTitle": "URL 編碼/解碼 - URL 轉 JSON - URL 參數解析 - 在線工具 - URLxcode.com",
     "siteDescription": "URLxcode是一個簡單易用的URL在線工具集合，提供URL編碼/解碼服務，支持URL參數解析並轉換為JSON，包含URL相關知識。",
@@ -168,6 +174,7 @@
     "aboutURL": "關於 URL"
   },
   "es": {
+    "langToEn": "Spanish",
     "siteName": "URLxcode",
     "siteTitle": "Codificación/decodificación de URL - Convertir a JSON - Análisis de parámetros de URL - Herramienta en línea - URLxcode.com",
     "siteDescription": "URLxcode es una colección de herramientas de URL en línea fáciles de usar, que proporciona servicios de codificación/decodificación de URL, admite el análisis de parámetros de URL y la conversión a JSON, incluido el conocimiento relacionado con URL.",
@@ -194,5 +201,34 @@
     "URITooltip": "Usando el método encodeURI() de JavaScript para implementar.",
     "URIComponentTooltip": "Usando el método encodeURIComponent() de JavaScript para implementar.",
     "aboutURL": "Acerca de la URL"
+  },
+  "vn": {
+    "langToEn": "Vietnamese",
+    "siteName": "URLxcode",
+    "siteTitle": "Mã hóa/Giải mã URL - URL tới JSON - Phân tích tham số URL - Công cụ trực tuyến - URLxcode.com",
+    "siteDescription": "URLxcode là tập hợp các công cụ URL trực tuyến dễ sử dụng, cung cấp dịch vụ mã hóa/giải mã URL, hỗ trợ phân tích tham số URL và chuyển đổi sang JSON, bao gồm cả kiến ​​thức liên quan đến URL.",
+    "siteKeywords": "URL, Mã Hóa, Giải Mã, Trực Tuyến, Công Cụ",
+    "siteCanonical": "https://www.urlxcode.com/vn",
+    "placeHolderInput": "Hãy nhập nội dung cần mã hóa/giải mã, ví dụ: https://www.urlxcode.com/",
+    "placeHolderOutput": "Kết quả được mã hóa/giải mã URL.",
+    "promptTitle": "Mã hóa sang định dạng được mã hóa URL hoặc giải mã từ nó",
+    "inputEmptyTips": "Đầu vào trống!",
+    "inputInvalidTips": "Đầu vào không hợp lệ!",
+    "runTipsTitle": "❤️ URLxcode.com:",
+    "copyMsgSuccess": "Đã sao chép!",
+    "copyMsgError": "Sao chép không thành công.",
+    "btnCopyInputText": "Sao chép đầu vào",
+    "btnCopyOutputText": "Sao chép đầu ra",
+    "btnDecodeText": "Giải mã",
+    "btnEncodeText": "Mã hóa",
+    "btnClearText": "Thông thoáng",
+    "btnSwapText": "Tráo đổi",
+    "btnParseText": "Phân tích thông số",
+    "btnToJsonText": "Tới JSON",
+    "optionURIText": "Không mã hóa các ký tự đặc biệt",
+    "optionURIComponentText": "Mã hóa các ký tự đặc biệt",
+    "URITooltip": "Sử dụng phương thức mã hóaURI() của JavaScript để triển khai.",
+    "URIComponentTooltip": "Sử dụng phương thức mã hóaURIComponent() của JavaScript để triển khai.",
+    "aboutURL": "Giới thiệu về URL"
   }
 }

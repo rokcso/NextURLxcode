@@ -36,6 +36,8 @@ export default function Layout({ children }) {
                 <Link href={`/ru`}>Русский</Link>
                 &nbsp;
                 <Link href={`/es`}>Español</Link>
+                &nbsp;
+                <Link href={`/vn`}>Tiếng Việt</Link>
               </nav>
             ) : (
               ""

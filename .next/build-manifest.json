@@ -12,11 +12,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -27,50 +22,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/es": [
+    "/vn": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/es.js"
+      "static/chunks/pages/vn.js"
     ],
-    "/jp": [
+    "/vn/[id]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/jp.js"
-    ],
-    "/jp/[id]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/jp/[id].js"
-    ],
-    "/kr": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/kr.js"
-    ],
-    "/kr/[id]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/kr/[id].js"
-    ],
-    "/ru": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/ru.js"
-    ],
-    "/tc": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/tc.js"
-    ],
-    "/tc/[id]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/tc/[id].js"
-    ],
-    "/zh": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/zh.js"
+      "static/chunks/pages/vn/[id].js"
     ]
   },
   "ampFirstPages": []

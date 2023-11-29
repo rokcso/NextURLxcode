@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function Layout({ children }) {
-  const { pathname } = useRouter();
+  const { pathname, push } = useRouter();
   const homePath = pathname.split("/")[1] || "";
   const languageOptions = [
     { path: "/", label: "English" },
@@ -16,6 +16,11 @@ export default function Layout({ children }) {
     { path: "/vn", label: "Tiếng Việt" },
   ];
 
+  const handleLanguageChange = (event) => {
+    const selectedLanguage = event.target.value;
+    push(selectedLanguage);
+  };
+
   return (
     <>
       <div className={componentStyles.layout}>
@@ -27,13 +32,14 @@ export default function Layout({ children }) {
               <span>x = En/De</span>
             </Link>
             {pathname.length <= 3 && (
-              <nav>
-                {languageOptions.map((item) => (
-                  <span key={item.path}>
-                    &nbsp;
-                    <Link href={item.path}>{item.label}</Link>
-                  </span>
-                ))}
+              <nav className={componentStyles.selectWrapper}>
+                <select value={pathname} onChange={handleLanguageChange}>
+                  {languageOptions.map((item) => (
+                    <option key={item.path} value={item.path}>
+                      {item.label}
+                    </option>
+                  ))}
+                </select>
               </nav>
             )}
           </div>
@@ -42,7 +48,8 @@ export default function Layout({ children }) {
         <footer className={componentStyles.footer}>
           <span>Online URL Encode/Decode Tool.&nbsp;</span>
           <span>
-            Copyright &copy; 2023 <Link href="https://rokcso.com">rokcso</Link>
+            Copyright &copy; 2023{" "}
+            <Link href="https://rokcso.com">rokcso 🍩</Link>
             .&nbsp;
           </span>
           <span>All rights reserved.</span>

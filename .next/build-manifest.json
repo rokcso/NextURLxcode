@@ -27,20 +27,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/es": [
+    "/jp": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/es.js"
+      "static/chunks/pages/jp.js"
     ],
-    "/vn": [
+    "/jp/[id]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/vn.js"
-    ],
-    "/vn/[id]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/vn/[id].js"
+      "static/chunks/pages/jp/[id].js"
     ],
     "/zh": [
       "static/chunks/webpack.js",

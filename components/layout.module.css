@@ -21,6 +21,13 @@
   float: right;
 }
 
+.selectWrapper select {
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #FBFAF9;
+  color: #141E46;
+}
+
 .header a {
   color: #BB2525;
 }

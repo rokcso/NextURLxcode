@@ -6,14 +6,14 @@ export default function Layout({ children }) {
   const { pathname, push } = useRouter();
   const homePath = pathname.split("/")[1] || "";
   const languageOptions = [
-    { path: "/", label: "English" },
-    { path: "/zh", label: "简体中文" },
-    { path: "/tc", label: "繁體中文" },
-    { path: "/kr", label: "한국인" },
-    { path: "/jp", label: "日本語" },
-    { path: "/ru", label: "Русский" },
-    { path: "/es", label: "Español" },
-    { path: "/vn", label: "Tiếng Việt" },
+    { path: "/", label: "🇬🇧 English" },
+    { path: "/zh", label: "🇨🇳 简体中文" },
+    { path: "/tc", label: "🇨🇳 繁體中文" },
+    { path: "/kr", label: "🇰🇷 한국인" },
+    { path: "/jp", label: "🇯🇵 日本語" },
+    { path: "/ru", label: "🇷🇺 Русский" },
+    { path: "/es", label: "🇪🇸 Español" },
+    { path: "/vn", label: "🇻🇳 Tiếng Việt" },
   ];
 
   const handleLanguageChange = (event) => {

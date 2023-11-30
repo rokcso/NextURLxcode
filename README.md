@@ -2,45 +2,23 @@
 
 使用 [Next.js](https://nextjs.org/) 构建的 [URLxcode](https://www.urlxcode.com/) Version 2.0，一个在线 URL 工具。
 
-## 代码结构
+## 多语言适配
+
+需要调整的文件包括：
 
 ```
-|-- components
+|-- componnents
    |-- layout.js
-   |-- layout.module.css
-   |-- URLConvertor.js
-   |-- URLConvertot.module.css
 |-- lib
+   |-- getPostsData.js
    |-- useI18n.js
 |-- pages
-   |-- index.js
-   |-- _app.js
-   |-- 404.js
-   |-- zh
+   # 新增对应的语言文件夹
+      |-- [id].js # 需要引用对应的语言文件
       |-- index.js
-   |-- kr
-      |-- index.js
-   |-- jp
-      |-- index.js
-   |-- post
-      |-- [id].js
 |-- public
-   |-- i18n.json
-   |-- robots.txt
-   |-- sitemap.xml
    |-- posts
-      |-- en.json
-      |-- zh.json
-   |-- favicon
-      |-- icon16x16.png
-      |-- icon32x32.png
-      |-- icon48x48.png
-      |-- icon64x64.png
-      |-- icon128x128.png
-|-- syules
-   |-- globals.css
-|-- node_modules
-|-- package-lock.json
-|-- package.json
-|-- README.md
+      # 新增对应的语言文件
+   |-- i18n.json # 增加对应的语言内容
+   |-- sitemap.xml # 更新站点地图
 ```

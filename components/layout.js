@@ -14,6 +14,7 @@ export default function Layout({ children }) {
     { path: "/ru", label: "🇷🇺 Русский" },
     { path: "/es", label: "🇪🇸 Español" },
     { path: "/vn", label: "🇻🇳 Tiếng Việt" },
+    { path: "/in", label: "🇮🇳 हिंदी" },
   ];
 
   const handleLanguageChange = (event) => {

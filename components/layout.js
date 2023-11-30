@@ -13,6 +13,7 @@ export default function Layout({ children }) {
     { path: "/jp", label: "🇯🇵 日本語" },
     { path: "/ru", label: "🇷🇺 Русский" },
     { path: "/es", label: "🇪🇸 Español" },
+    { path: "/de", label: "🇩🇪 Deutsch" },
     { path: "/vn", label: "🇻🇳 Tiếng Việt" },
     { path: "/in", label: "🇮🇳 हिंदी" },
   ];

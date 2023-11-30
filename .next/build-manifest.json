@@ -27,20 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/jp": [
+    "/in": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/jp.js"
-    ],
-    "/jp/[id]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/jp/[id].js"
-    ],
-    "/zh": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/zh.js"
+      "static/chunks/pages/in.js"
     ]
   },
   "ampFirstPages": []

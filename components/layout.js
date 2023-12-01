@@ -4,7 +4,10 @@ import { useRouter } from "next/router";
 
 export default function Layout({ children }) {
   const { pathname, push } = useRouter();
-  const homePath = pathname.split("/")[1] || "";
+  let homePath = pathname.split("/")[1] || "";
+  if (homePath === "[id]" || homePath === "404") {
+    homePath = "";
+  }
   const languageOptions = [
     { path: "/", label: "🇬🇧 English" },
     { path: "/zh", label: "🇨🇳 简体中文" },

@@ -9,7 +9,7 @@ export default function Layout({ children }) {
     homePath = "";
   }
   const languageOptions = [
-    { path: "/", label: "🇬🇧 English" },
+    { path: "/", label: "🇺🇸 English" },
     { path: "/zh", label: "🇨🇳 简体中文" },
     { path: "/tc", label: "🇨🇳 繁體中文" },
     { path: "/kr", label: "🇰🇷 한국인" },

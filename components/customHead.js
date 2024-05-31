@@ -25,19 +25,18 @@ export default function CustomHead({ texts }) {
         <meta name="baidu-site-verification" content="codeva-yd4vTyGhor" />
 
         {/* 百度统计分析 */}
-        {/* <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `
-    var _hmt = _hmt || [];
-    (function () {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?54ef289bd991df8f8430238e83790b15";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-    `,
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?54ef289bd991df8f8430238e83790b15";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();`,
           }}
-        /> */}
+        />
         {/* Google 统计分析 */}
         {/* Google tag (gtag.js) */}
         {/* <script

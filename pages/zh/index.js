@@ -24,6 +24,15 @@ export default function Home() {
             VIP 的体验。
           </p>
         </div>
+        <div>
+          <Link href="https://z-lib.one/">
+            <h3>Z-Lib One | 在一个地方查找所有可用的 Z-Library 网站</h3>
+          </Link>
+          <p>
+            一站式 Z-Library 导航中心，提供 Z-Library
+            资源链接的实时更新，帮助你快速找到所需的书籍。
+          </p>
+        </div>
       </Layout>
     </>
   );

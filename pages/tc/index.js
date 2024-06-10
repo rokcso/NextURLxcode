@@ -1,6 +1,7 @@
 import Layout from "../../components/layout";
 import URLConvertor from "../../components/URLConvertor";
 import PostsList from "../../components/postsList";
+import AdBanner from "../../components/adBanner";
 import CustomHead from "../../components/customHead";
 import useI18n from "../../lib/useI18n";
 import getPostsData from "../../lib/getPostsData";
@@ -13,6 +14,7 @@ export default function Home() {
       <CustomHead texts={texts} />
       <Layout>
         <URLConvertor texts={texts} />
+        <AdBanner />
         <PostsList posts={posts} texts={texts} />
       </Layout>
     </>

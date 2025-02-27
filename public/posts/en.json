@@ -7,7 +7,7 @@
         "siteTitle": "What is URL? - URL Encode/Decode - Online Tool - URLxcode.com",
         "siteDescription": "URL: Uniform Resource Locator for locating internet resources. It consists of protocol, domain name, path, query string, and fragment identifier. Enables easy access to web pages, images, files, and more through a simple text format.",
         "siteKeywords": "URL, Encode, Decode, Online, Tool",
-        "siteCanonical": "https://www.urlxcode.com/what-is-url"
+        "siteCanonical": "https://urlxcode.skillix.cc/what-is-url"
     },
     {
         "id": "what-is-url-encoding",
@@ -17,7 +17,7 @@
         "siteTitle": "What is URL Encoding? - URL Encode/Decode - Online Tool - URLxcode.com",
         "siteDescription": "In this article, we will explore the concept of URL encoding, which is an essential aspect of web browsing. Designed for individuals without a strong computer background, this article aims to provide a comprehensive yet accessible understanding of URL encoding. We will delve into the basics of URLs, explain the need for encoding, and discuss the key principles and techniques involved. By the end of this article, you will have a clearer grasp of URL encoding and how it ensures seamless communication on the internet.",
         "siteKeywords": "URL, Encode, Decode, Online, Tool",
-        "siteCanonical": "https://www.urlxcode.com/what-is-url-encoding"
+        "siteCanonical": "https://urlxcode.skillix.cc/what-is-url-encoding"
     },
     {
         "id": "non-english-characters-in-url",
@@ -27,6 +27,6 @@
         "siteTitle": "Non-English characters in URL - URL Encode/Decode - Online Tool - URLxcode.com",
         "siteDescription": "In this article, we will explore the significance of non-English characters in URLs, the concept of URL encoding, and the use of Internationalized Domain Names (IDN) in web addresses. Non-English characters play a crucial role in providing a better user experience and accessibility for global users. URL encoding ensures accurate transmission and parsing of non-English characters. IDN allows the inclusion of non-English characters in domain names, enabling users to directly input and access URLs with non-English characters. We will also discuss best practices for utilizing non-English characters in URLs to ensure compatibility and optimal user experience.",
         "siteKeywords": "URL, Encode, Decode, Online, Tool",
-        "siteCanonical": "https://www.urlxcode.com/non-english-characters-in-url"
+        "siteCanonical": "https://urlxcode.skillix.cc/non-english-characters-in-url"
     }
 ]

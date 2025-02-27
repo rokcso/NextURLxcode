@@ -7,7 +7,7 @@
         "siteTitle": "¿Qué es la URL? - Codificación/Decodificación de URL - Herramienta en línea - URLxcode.com",
         "siteDescription": "URL: Localizador uniforme de recursos para localizar recursos de Internet. Consta de protocolo, nombre de dominio, ruta, cadena de consulta e identificador de fragmento. Permite un fácil acceso a páginas web, imágenes, archivos y más a través de un formato de texto simple.",
         "siteKeywords": "URL, Codificar, Decodificar, En Línea, Herramienta",
-        "siteCanonical": "https://www.urlxcode.com/es/what-is-url"
+        "siteCanonical": "https://urlxcode.skillix.cc/es/what-is-url"
     },
     {
         "id": "what-is-url-encoding",
@@ -17,7 +17,7 @@
         "siteTitle": "¿Qué es la codificación de URL? - Codificación/Decodificación de URL - Herramienta en línea - URLxcode.com",
         "siteDescription": "En este artículo, exploraremos el concepto de codificación de URL, que es un aspecto esencial de la navegación web. Diseñado para personas sin una sólida experiencia en informática, este artículo tiene como objetivo proporcionar una comprensión completa pero accesible de la codificación de URL. Profundizaremos en los conceptos básicos de las URL, explicaremos la necesidad de codificación y discutiremos los principios y técnicas clave involucrados. Al final de este artículo, comprenderá más claramente la codificación de URL y cómo garantiza una comunicación fluida en Internet.",
         "siteKeywords": "URL, Codificar, Decodificar, En Línea, Herramienta",
-        "siteCanonical": "https://www.urlxcode.com/es/what-is-url-encoding"
+        "siteCanonical": "https://urlxcode.skillix.cc/es/what-is-url-encoding"
     },
     {
         "id": "non-english-characters-in-url",
@@ -27,6 +27,6 @@
         "siteTitle": "Caracteres no ingleses en URL - Codificación/Decodificación de URL - Herramienta en línea - URLxcode.com",
         "siteDescription": "En este artículo, exploraremos la importancia de los caracteres no ingleses en las URL, el concepto de codificación de URL y el uso de nombres de dominio internacionalizados (IDN) en las direcciones web. Los caracteres no ingleses desempeñan un papel crucial a la hora de proporcionar una mejor experiencia de usuario y accesibilidad para los usuarios globales. La codificación de URL garantiza una transmisión y un análisis precisos de caracteres no ingleses. IDN permite la inclusión de caracteres no ingleses en los nombres de dominio, lo que permite a los usuarios ingresar y acceder directamente a URL con caracteres no ingleses. También analizaremos las mejores prácticas para utilizar caracteres no ingleses en las URL para garantizar la compatibilidad y una experiencia de usuario óptima.",
         "siteKeywords": "URL, Codificar, Decodificar, En Línea, Herramienta",
-        "siteCanonical": "https://www.urlxcode.com/es/non-english-characters-in-url"
+        "siteCanonical": "https://urlxcode.skillix.cc/es/non-english-characters-in-url"
     }
 ]

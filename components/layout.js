@@ -54,7 +54,7 @@ export default function Layout({ children }) {
           <span>Online URL Encode/Decode Tool.&nbsp;</span>
           <span>
             Copyright &copy; 2023{" "}
-            <Link href="https://rokcso.com">rokcso 🍩</Link>
+            <Link href="https://skillix.cc/">skillix.cc ⚡</Link>
             .&nbsp;
           </span>
           <span>All rights reserved.</span>

@@ -7,7 +7,7 @@
         "siteTitle": "URLとは何ですか? - URL エンコード/デコード - オンライン ツール - URLxcode.com",
         "siteDescription": "URL：インターネット資源を特定するための統一リソースロケータ.プロトコル，ドメイン名，パス，問合せ文字列，スライスタグからなる.簡単なテキスト形式でWebページ，画像，ファイルなどに容易にアクセスすることができる。",
         "siteKeywords": "URL, エンコード, デコード, オンライン, ツール",
-        "siteCanonical": "https://www.urlxcode.com/jp/what-is-url"
+        "siteCanonical": "https://urlxcode.skillix.cc/jp/what-is-url"
     },
     {
         "id": "what-is-url-encoding",
@@ -17,7 +17,7 @@
         "siteTitle": "URLエンコーディングとは何ですか? - URL エンコード/デコード - オンライン ツール - URLxcode.com",
         "siteDescription": "この記事では、Web ブラウジングの重要な側面である URL エンコードの概念について説明します。 この記事は、コンピュータに詳しくない人向けに作成されており、URL エンコードについて包括的かつわかりやすい理解を提供することを目的としています。 URL の基本を詳しく掘り下げ、エンコードの必要性を説明し、関連する主要な原則とテクニックについて説明します。 この記事を読み終えるまでに、URL エンコードと、それがインターネット上でのシームレスな通信をどのように確保するのかをより明確に理解できるようになります。",
         "siteKeywords": "URL, エンコード, デコード, オンライン, ツール",
-        "siteCanonical": "https://www.urlxcode.com/jp/what-is-url-encoding"
+        "siteCanonical": "https://urlxcode.skillix.cc/jp/what-is-url-encoding"
     },
     {
         "id": "non-english-characters-in-url",
@@ -27,6 +27,6 @@
         "siteTitle": "URL 内の英語以外の文字 - URL エンコード/デコード - オンライン ツール - URLxcode.com",
         "siteDescription": "この記事では、URL 内の英語以外の文字の重要性、URL エンコードの概念、Web アドレスでの国際化ドメイン名 (IDN) の使用について説明します。 英語以外の文字は、世界中のユーザーにより良いユーザー エクスペリエンスとアクセシビリティを提供する上で重要な役割を果たします。 URL エンコードにより、英語以外の文字の正確な送信と解析が保証されます。 IDN では、ドメイン名に英語以外の文字を含めることができるため、ユーザーは英語以外の文字を含む URL を直接入力してアクセスできます。 また、互換性と最適なユーザー エクスペリエンスを確保するために、URL で英語以外の文字を利用するためのベスト プラクティスについても説明します。",
         "siteKeywords": "URL, エンコード, デコード, オンライン, ツール",
-        "siteCanonical": "https://www.urlxcode.com/jp/non-english-characters-in-url"
+        "siteCanonical": "https://urlxcode.skillix.cc/jp/non-english-characters-in-url"
     }
 ]

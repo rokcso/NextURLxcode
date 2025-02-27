@@ -14,7 +14,7 @@ export default function Home() {
       <CustomHead texts={texts} />
       <Layout>
         <URLConvertor texts={texts} />
-        <AdBanner />
+        {/* <AdBanner /> */}
         <PostsList posts={posts} texts={texts} />
       </Layout>
     </>

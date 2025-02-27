@@ -7,7 +7,7 @@
         "siteTitle": "Was ist eine URL? - URL-Kodierung/Dekodierung – Online-Tool - URLxcode.com",
         "siteDescription": "URL: Uniform Resource Locator zum Auffinden von Internetressourcen. Es besteht aus Protokoll, Domänenname, Pfad, Abfragezeichenfolge und Fragment-ID. Ermöglicht den einfachen Zugriff auf Webseiten, Bilder, Dateien und mehr über ein einfaches Textformat.",
         "siteKeywords": "URL, Kodieren, Dekodieren, Online, Tool",
-        "siteCanonical": "https://www.urlxcode.com/de/what-is-url"
+        "siteCanonical": "https://urlxcode.skillix.cc/de/what-is-url"
     },
     {
         "id": "what-is-url-encoding",
@@ -17,7 +17,7 @@
         "siteTitle": "Was ist URL-Kodierung? - URL-Kodierung/Dekodierung – Online-Tool - URLxcode.com",
         "siteDescription": "In diesem Artikel befassen wir uns mit dem Konzept der URL-Kodierung, die ein wesentlicher Aspekt beim Surfen im Internet ist. Dieser Artikel richtet sich an Personen ohne ausgeprägte Computerkenntnisse und soll ein umfassendes und dennoch leicht verständliches Verständnis der URL-Codierung vermitteln. Wir werden uns mit den Grundlagen von URLs befassen, die Notwendigkeit der Kodierung erläutern und die wichtigsten Prinzipien und Techniken besprechen. Am Ende dieses Artikels werden Sie die URL-Kodierung besser verstehen und wissen, wie sie eine reibungslose Kommunikation im Internet gewährleistet.",
         "siteKeywords": "URL, Kodieren, Dekodieren, Online, Tool",
-        "siteCanonical": "https://www.urlxcode.com/de/what-is-url-encoding"
+        "siteCanonical": "https://urlxcode.skillix.cc/de/what-is-url-encoding"
     },
     {
         "id": "non-english-characters-in-url",
@@ -27,6 +27,6 @@
         "siteTitle": "Nicht-englische Zeichen in URL – URL-Kodierung/Dekodierung – Online-Tool - URLxcode.com",
         "siteDescription": "In diesem Artikel untersuchen wir die Bedeutung nicht-englischer Zeichen in URLs, das Konzept der URL-Kodierung und die Verwendung internationalisierter Domänennamen (IDN) in Webadressen. Nicht-englische Zeichen spielen eine entscheidende Rolle bei der Bereitstellung einer besseren Benutzererfahrung und Zugänglichkeit für globale Benutzer. Die URL-Kodierung gewährleistet eine genaue Übertragung und Analyse nicht-englischer Zeichen. IDN ermöglicht die Aufnahme nicht-englischer Zeichen in Domänennamen, sodass Benutzer URLs mit nicht-englischen Zeichen direkt eingeben und darauf zugreifen können. Wir besprechen außerdem Best Practices für die Verwendung nicht-englischer Zeichen in URLs, um Kompatibilität und optimale Benutzererfahrung sicherzustellen.",
         "siteKeywords": "URL, Kodieren, Dekodieren, Online, Tool",
-        "siteCanonical": "https://www.urlxcode.com/de/non-english-characters-in-url"
+        "siteCanonical": "https://urlxcode.skillix.cc/de/non-english-characters-in-url"
     }
 ]

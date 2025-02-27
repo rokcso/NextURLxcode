@@ -7,7 +7,7 @@
         "siteTitle": "URL이란 무엇입니까? - URL 인코딩/디코드 - 온라인 도구 - URLxcode.com",
         "siteDescription": "URL: 인터넷 리소스를 찾는 데 사용되는 통합 리소스 로케이터입니다.프로토콜, 도메인 이름, 경로, 쿼리 문자열, 슬라이스 ID로 구성됩니다.간단한 텍스트 형식을 통해 웹 페이지, 이미지, 파일 등에 쉽게 액세스할 수 있습니다.",
         "siteKeywords": "URL, 인코딩, 디코딩, 온라인, 도구",
-        "siteCanonical": "https://www.urlxcode.com/kr/what-is-url"
+        "siteCanonical": "https://urlxcode.skillix.cc/kr/what-is-url"
     },
     {
         "id": "what-is-url-encoding",
@@ -17,7 +17,7 @@
         "siteTitle": "URL 인코딩이란 무엇입니까? - URL 인코딩/디코드 - 온라인 도구 - URLxcode.com",
         "siteDescription": "이번 글에서는 웹 브라우징의 필수적인 측면인 URL 인코딩의 개념을 살펴보겠습니다. 컴퓨터에 대한 전문 지식이 없는 개인을 위해 작성된 이 문서는 URL 인코딩에 대한 포괄적이면서도 접근 가능한 이해를 제공하는 것을 목표로 합니다. URL의 기본 사항을 자세히 살펴보고, 인코딩의 필요성을 설명하고, 관련된 핵심 원칙과 기술에 대해 논의합니다. 이 기사를 마치면 URL 인코딩과 이것이 인터넷에서 원활한 통신을 보장하는 방법을 더 명확하게 이해하게 될 것입니다.",
         "siteKeywords": "URL, 인코딩, 디코딩, 온라인, 도구",
-        "siteCanonical": "https://www.urlxcode.com/kr/what-is-url-encoding"
+        "siteCanonical": "https://urlxcode.skillix.cc/kr/what-is-url-encoding"
     },
     {
         "id": "non-english-characters-in-url",
@@ -27,6 +27,6 @@
         "siteTitle": "URL의 영어가 아닌 문자 - URL 인코딩/디코드 - 온라인 도구 - URLxcode.com",
         "siteDescription": "이 기사에서는 URL에서 영어가 아닌 문자의 중요성, URL 인코딩의 개념, 웹 주소에서 국제화된 도메인 이름(IDN)의 사용을 살펴보겠습니다. 영어가 아닌 문자는 글로벌 사용자에게 더 나은 사용자 경험과 접근성을 제공하는 데 중요한 역할을 합니다. URL 인코딩은 영어가 아닌 문자의 정확한 전송 및 구문 분석을 보장합니다. IDN을 사용하면 도메인 이름에 영어가 아닌 문자를 포함할 수 있으므로 사용자는 영어가 아닌 문자가 포함된 URL을 직접 입력하고 액세스할 수 있습니다. 또한 호환성과 최적의 사용자 경험을 보장하기 위해 영어가 아닌 문자를 URL에 활용하는 모범 사례에 대해서도 논의할 것입니다.",
         "siteKeywords": "URL, 인코딩, 디코딩, 온라인, 도구",
-        "siteCanonical": "https://www.urlxcode.com/kr/non-english-characters-in-url"
+        "siteCanonical": "https://urlxcode.skillix.cc/kr/non-english-characters-in-url"
     }
 ]

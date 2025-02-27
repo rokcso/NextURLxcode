@@ -7,7 +7,7 @@
         "siteTitle": "什么是 URL? - URL 编码/解码 - 在线工具 - URLxcode.com",
         "siteDescription": "URL: 统一资源定位符，用于定位互联网资源。包含协议、域名、路径、查询字符串和片段标识符等组成部分。通过简单文本格式，方便访问网页、图片和文件等资源。",
         "siteKeywords": "URL, 编码, 解码, 在线, 工具",
-        "siteCanonical": "https://www.urlxcode.com/zh/what-is-url"
+        "siteCanonical": "https://urlxcode.skillix.cc/zh/what-is-url"
     },
     {
         "id": "what-is-url-encoding",
@@ -17,7 +17,7 @@
         "siteTitle": "什么是URL编码？ - URL 编码/解码 - 在线工具 - URLxcode.com",
         "siteDescription": "本文将介绍 URL 编码的概念，它是网络浏览的重要组成部分。本文旨在为没有太多计算机基础的人提供全面而易懂的 URL 编码理解。我们将深入探讨 URL 的基础知识，解释编码的必要性，并讨论涉及的关键原则和技术。通过阅读本文，您将更清楚地了解 URL 编码以及它如何确保互联网上的无缝通信。",
         "siteKeywords": "URL, 编码, 解码, 在线, 工具",
-        "siteCanonical": "https://www.urlxcode.com/zh/what-is-url-encoding"
+        "siteCanonical": "https://urlxcode.skillix.cc/zh/what-is-url-encoding"
     },
     {
         "id": "non-english-characters-in-url",
@@ -27,6 +27,6 @@
         "siteTitle": "URL 中的非英文字符 - URL 编码/解码 - 在线工具 - URLxcode.com",
         "siteDescription": "本文探讨了非英文字符在URL中的重要性、URL编码、国际化域名（IDN）及最佳实践。非英文字符的使用提高了全球用户体验，URL编码确保正确传输和解析。IDN允许使用非英文字符的域名。应遵循最佳实践，如URL编码、权衡可读性和兼容性，以促进全球互联网发展。",
         "siteKeywords": "URL, 编码, 解码, 在线, 工具",
-        "siteCanonical": "https://www.urlxcode.com/zh/non-english-characters-in-url"
+        "siteCanonical": "https://urlxcode.skillix.cc/zh/non-english-characters-in-url"
     }
 ]

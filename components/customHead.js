@@ -15,12 +15,6 @@ export default function CustomHead({ texts }) {
         <link rel="icon" href="/favicon/icon64x64.png" />
         <link rel="icon" href="/favicon/icon128x128.png" />
 
-        {/* 私有化部署的 umami 统计分析 */}
-        <script
-          async
-          src="https://umami.rokcso.com/script.js"
-          data-website-id="6cdcdba8-3a86-4ae9-9244-bfc1ef144b6e"
-        ></script>
         {/* 百度搜索资源平台站点验证 */}
         <meta name="baidu-site-verification" content="codeva-yd4vTyGhor" />
 

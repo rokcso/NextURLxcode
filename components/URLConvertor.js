@@ -14,7 +14,7 @@ export default function URLConvertor({ texts }) {
   const [copyOutputMsg, setCopyOutputMsg] = useState("");
   // 复制功能
   const handleCopyOutput = () => {
-    umami.track("clickCopyOutputBtn");
+    // umami.track("clickCopyOutputBtn");
     // 获取当前输出内容
     const outputValue = outputRef.current.value;
     try {
@@ -35,7 +35,7 @@ export default function URLConvertor({ texts }) {
     }
   };
   const handleCopyInput = () => {
-    umami.track("clickCopyInputBtn");
+    // umami.track("clickCopyInputBtn");
     const inputValue = inputRef.current.value;
     try {
       navigator.clipboard.writeText(inputValue);
@@ -59,7 +59,7 @@ export default function URLConvertor({ texts }) {
   const [result, setResult] = useState("");
   // 解码功能
   const handleDecode = () => {
-    umami.track("clickDecodeBtn");
+    // umami.track("clickDecodeBtn");
     // 获取当前输入内容
     const inputValue = inputRef.current.value;
     // 如果输入内容为空
@@ -82,7 +82,7 @@ export default function URLConvertor({ texts }) {
 
   // 编码功能
   const handleEncode = () => {
-    umami.track("clickEncodeBtn");
+    // umami.track("clickEncodeBtn");
     // 获取当前输入内容
     const inputValue = inputRef.current.value;
     // 判断输入是否为空，为空则结束
@@ -112,7 +112,7 @@ export default function URLConvertor({ texts }) {
 
   // 清除功能
   const handleClear = () => {
-    umami.track("clickClearBtn");
+    // umami.track("clickClearBtn");
     // 将 input 和 output 的内容值设定为空
     inputRef.current.value = "";
     setResult("");
@@ -129,7 +129,7 @@ export default function URLConvertor({ texts }) {
 
   // 交换 input output
   const handleSwap = () => {
-    umami.track("clickSwapBtn");
+    // umami.track("clickSwapBtn");
     const input = inputRef.current.value;
     const output = outputRef.current.value;
     inputRef.current.value = output;
@@ -138,7 +138,7 @@ export default function URLConvertor({ texts }) {
 
   // 解析 URL 功能
   const handleParse = () => {
-    umami.track("clickParseBtn");
+    // umami.track("clickParseBtn");
     const inputValue = inputRef.current.value;
     if (!validateURL(inputValue)) {
       // 输入的内容不符合 URL 格式
@@ -172,7 +172,7 @@ export default function URLConvertor({ texts }) {
 
   // URL 转 Json 功能
   const handleToJson = () => {
-    umami.track("clickToJsonBtn");
+    // umami.track("clickToJsonBtn");
     const inputValue = inputRef.current.value;
     if (!validateURL(inputValue)) {
       // 输入的内容不符合 URL 格式
